@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    font-family: "PT Sans", sans-serif;
+}
+.heads{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.headings{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.hrow2 button{
+    margin: 0px 0px -50px 400px;
+}
+.hrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 120px 0;
+}
+#h1{
+    font-family: "DM Serif Text", serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+#h2{
+    font-family: "Playwrite BE VLG", cursive;
+    font-size: 60px;
+}
+.para{
+    text-align: justify;
+}
+.boatrace{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Kerala_boatrace.jpg/800px-Kerala_boatrace.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.boatrace h1{
+    font-family: "DM Serif Text", serif;
+}
+.northimg{
+    width: 276px;
+}
+.ph4,
+.love{
+    font-family: "Playwrite BE VLG", cursive;
+}
+.review{
+    margin: 0px 15px;
+    width: 98%;
+}
+footer{
+    width: 98%;
+    margin: 0px 15px;
+    background-color: darkblue;
+}
+.about h6{
+    margin: 20px 0px 20px 200px;
+}
+.honeymoon:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.profile{
+    width: 200px;
+}
